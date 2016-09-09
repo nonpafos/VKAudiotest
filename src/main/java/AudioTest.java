@@ -85,7 +85,7 @@ public class AudioTest {
         assertTrue(driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.vkontakte.android:id/aplayer_menu\")").isDisplayed());
         assertTrue(driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.vkontakte.android:id/aplayer_play\")").isDisplayed());
 
-        //let's give a song anough time to be fully downloaded and go back from player
+        //let's give a song enough time to be fully downloaded and go back from player
         Thread.sleep(25000);
         driver.pressKeyCode(AndroidKeyCode.BACK);
 
